@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en" class="dark scroll-smooth" dir="ltr">
+
+<!-- Mirrored from shreethemes.in/techwind/landing/blog-sidebar.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 18 May 2024 07:57:20 GMT -->
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tailwind CSS Multipurpose Landing Dashboard Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
+    <!-- Main Css -->
+    <link href="assets/libs/tiny-slider/tiny-slider.css" rel="stylesheet">
+
+    <link href="assets/libs/%40iconscout/unicons/css/line.css" type="text/css" rel="stylesheet">
+    <link href="assets/libs/%40mdi/font/css/materialdesignicons.min.css" rel="stylesheet" type="text/css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="assets/css/tailwind.min.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+
+</head>
+
+<body class="font-nunito text-base text-black dark:text-white dark:bg-slate-900">
+    <!-- Loader Start -->
+    <!-- <div id="preloader">
+            <div id="status">
+                <div class="spinner">
+                    <div class="double-bounce1"></div>
+                    <div class="double-bounce2"></div>
+                </div>
+            </div>
+        </div> -->
+    <!-- Loader End -->
+
+
+    <!-- Start Navbar -->
+    <nav id="topnav" class="defaultscroll is-sticky">
+        <div class="container relative">
+            <!-- Logo container-->
+            <a class="logo" href="index.html">
+                <img src="assets/image/logo-dark.png" class="inline-block dark:hidden" alt="">
+                <img src="assets/image/logo-light.png" class="hidden dark:inline-block" alt="">
+            </a>
+
+            <!-- End Logo container-->
+            <div class="menu-extras px-2">
+                <div class="menu-item">
+                    <!-- Mobile menu toggle-->
+                    <a class="navbar-toggle text-3xl" id="isToggle" onclick="toggleMenu()">
+                        <div class="lines">
+                            <i class="uil uil-bars"></i>
+                        </div>
+                    </a>
+                    <!-- End mobile menu toggle-->
+                </div>
+            </div>
+
+            <!--Login button Start-->
+            <ul class="buy-button list-none mb-0">
+                <li class="inline mb-0">
+                    <span class="relative inline-block">
+                        <input type="checkbox" class="checkbox opacity-0 absolute" id="chk" />
+
+                        <label
+                            class="label text-white bg-indigo-600 cursor-pointer rounded-full inline-flex justify-center items-center align-middle size-9"
+                            for="chk">
+                            <i class='bx bxs-moon inline-block dark:hidden'></i>
+                            <i class='bx bxs-sun hidden dark:inline-block'></i>
+                        </label>
+
+                    </span>
+                </li>
+            </ul>
+            <!--Login button End-->
+
+            <div id="navigation">
+                <!-- Navigation Menu-->
+                <ul class="navigation-menu ">
+                    <li>
+                        <a href="index.html" class="sub-menu-item nav-item">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="index.html#about" class="sub-menu-item nav-item">About</a>
+                    </li>
+
+                    <li>
+                        <a href="blogs.html" class="sub-menu-item nav-item">Blogs</a>
+                    </li>
+
+                    <li>
+                        <a href="index.html#projects" class="sub-menu-item nav-item">Projects</a>
+                    </li>
+
+                    <li><a href="index.html#contact" class="sub-menu-item nav-item">Contact</a></li>
+                </ul>
+            </div><!--end navigation-->
+        </div><!--end container-->
+    </nav>
+    <!-- End Navbar -->
+
+
+    <section class="relative md:pt-24 pt-16 pb-16 bg-gray-50 dark:bg-slate-800">
+
+        <div class="container relative">
+            <div class="lg:col-span-8 md:col-span-6 md:text-start text-center mt-8 pb-4">
+                <h3 class="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold text-center">
+                    Categories
+                </h3>
+            </div>
+        </div>
+
+        <div class="container relative">
+            <div class="grid grid-cols-1 relative">
+                <div class="tiny-five-item">
+
+                    <div class="tiny-slide no-copy-text">
+                        <div
+                            class="px-3 py-10 rounded-md shadow dark:shadow-gray-800 group text-center bg-white dark:bg-slate-900 hover:bg-indigo-600/5 dark:hover:bg-indigo-600/5 duration-500 m-2">
+                            <div
+                                class="size-[84px] bg-indigo-600/5 group-hover:bg-slate-900 rounded-full flex align-middle justify-center items-center shadow-sm dark:shadow-gray-800 duration-500 mx-auto">
+                                <i class='bx bxl-html5 html text-8xl '></i>
+                            </div>
+
+                            <div class="content mt-6">
+                                <a href="#" class="title h5 text-lg font-medium hover:text-indigo-600">
+                                    HTML
+                                </a>
+                                <p class="text-slate-400 mt-3">35 Posts</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tiny-slide no-copy-text">
+                        <div
+                            class="px-3 py-10 rounded-md shadow dark:shadow-gray-800 group text-center bg-white dark:bg-slate-900 hover:bg-indigo-600/5 dark:hover:bg-indigo-600/5 duration-500 m-2">
+                            <div
+                                class="size-[84px] bg-indigo-600/5 group-hover:bg-slate-900 rounded-full flex align-middle justify-center items-center shadow-sm dark:shadow-gray-800 duration-500 mx-auto">
+                                <i class='bx bxl-css3 css text-8xl '></i>
+                            </div>
+
+                            <div class="content mt-6">
+                                <a href="#" class="title h5 text-lg font-medium hover:text-indigo-600">
+                                    CSS
+                                </a>
+                                <p class="text-slate-400 mt-3">35 Posts</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tiny-slide no-copy-text">
+                        <div
+                            class="px-3 py-10 rounded-md shadow dark:shadow-gray-800 group text-center bg-white dark:bg-slate-900 hover:bg-indigo-600/5 dark:hover:bg-indigo-600/5 duration-500 m-2">
+                            <div
+                                class="size-[84px] bg-indigo-600/5 group-hover:bg-slate-900 rounded-full flex align-middle justify-center items-center shadow-sm dark:shadow-gray-800 duration-500 mx-auto">
+                                <i class='bx bxl-javascript javascript text-8xl '></i>
+                            </div>
+
+                            <div class="content mt-6">
+                                <a href="#" class="title h5 text-lg font-medium hover:text-indigo-600">
+                                    JavaScript
+                                </a>
+                                <p class="text-slate-400 mt-3">35 Posts</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tiny-slide no-copy-text">
+                        <div
+                            class="px-3 py-10 rounded-md shadow dark:shadow-gray-800 group text-center bg-white dark:bg-slate-900 hover:bg-indigo-600/5 dark:hover:bg-indigo-600/5 duration-500 m-2">
+                            <div
+                                class="size-[84px] bg-indigo-600/5 group-hover:bg-slate-900 rounded-full flex align-middle justify-center items-center shadow-sm dark:shadow-gray-800 duration-500 mx-auto">
+                                <i class='bx bxl-bootstrap bootstrap text-8xl '></i>
+                            </div>
+
+                            <div class="content mt-6">
+                                <a href="#" class="title h5 text-lg font-medium hover:text-indigo-600">
+                                    Bootstrap
+                                </a>
+                                <p class="text-slate-400 mt-3">35 Posts</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tiny-slide no-copy-text">
+                        <div
+                            class="px-3 py-10 rounded-md shadow dark:shadow-gray-800 group text-center bg-white dark:bg-slate-900 hover:bg-indigo-600/5 dark:hover:bg-indigo-600/5 duration-500 m-2">
+                            <div
+                                class="size-[84px] bg-indigo-600/5 group-hover:bg-slate-900 rounded-full flex align-middle justify-center items-center shadow-sm dark:shadow-gray-800 duration-500 mx-auto">
+                                <i class='bx bxl-tailwind-css tailwind text-8xl '></i>
+                            </div>
+                            <div class="content mt-6">
+                                <a href="#" class="title h5 text-lg font-medium hover:text-indigo-600">
+                                    Tailwind
+                                </a>
+                                <p class="text-slate-400 mt-3">35 Posts</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tiny-slide no-copy-text">
+                        <div
+                            class="px-3 py-10 rounded-md shadow dark:shadow-gray-800 group text-center bg-white dark:bg-slate-900 hover:bg-indigo-600/5 dark:hover:bg-indigo-600/5 duration-500 m-2">
+                            <div
+                                class="size-[84px] bg-indigo-600/5 group-hover:bg-slate-900 rounded-full flex align-middle justify-center items-center shadow-sm dark:shadow-gray-800 duration-500 mx-auto">
+                                <i class='bx bxl-angular angular text-8xl '></i>
+                            </div>
+                            <div class="content mt-6">
+                                <a href="#" class="title h5 text-lg font-medium hover:text-indigo-600">
+                                    Angular
+                                </a>
+                                <p class="text-slate-400 mt-3">35 Posts</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tiny-slide no-copy-text">
+                        <div
+                            class="px-3 py-10 rounded-md shadow dark:shadow-gray-800 group text-center bg-white dark:bg-slate-900 hover:bg-indigo-600/5 dark:hover:bg-indigo-600/5 duration-500 m-2">
+                            <div
+                                class="size-[84px] bg-indigo-600/5 group-hover:bg-slate-900 rounded-full flex align-middle justify-center items-center shadow-sm dark:shadow-gray-800 duration-500 mx-auto">
+                                <i class='bx bxl-react react text-8xl '></i>
+                            </div>
+                            <div class="content mt-6">
+                                <a href="#" class="title h5 text-lg font-medium hover:text-indigo-600">
+                                    React
+                                </a>
+                                <p class="text-slate-400 mt-3">35 Posts</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tiny-slide no-copy-text">
+                        <div
+                            class="px-3 py-10 rounded-md shadow dark:shadow-gray-800 group text-center bg-white dark:bg-slate-900 hover:bg-indigo-600/5 dark:hover:bg-indigo-600/5 duration-500 m-2">
+                            <div
+                                class="size-[84px] bg-indigo-600/5 group-hover:bg-slate-900 rounded-full flex align-middle justify-center items-center shadow-sm dark:shadow-gray-800 duration-500 mx-auto">
+                                <i class='bx bxl-nodejs node text-8xl '></i>
+                            </div>
+                            <div class="content mt-6">
+                                <a href="#" class="title h5 text-lg font-medium hover:text-indigo-600">
+                                    Node
+                                </a>
+                                <p class="text-slate-400 mt-3">35 Posts</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div><!--grid-->
+
+        </div>
+    </section>
+
+
+    <div class="relative">
+        <div class="absolute block w-full h-auto bottom-[25px] z-1 start-0">
+            <a href="#blogs">
+                <i
+                    class="mdi mdi-arrow-down absolute top-0 start-0 end-0 text-center inline-flex items-center justify-center rounded-full bg-white dark:bg-slate-900 size-12 mx-auto shadow-md dark:shadow-gray-800"></i>
+            </a>
+        </div>
+
+        <div
+            class="shape absolute sm:-bottom-px -bottom-[2px] start-0 end-0 overflow-hidden text-white dark:text-slate-900">
+            <svg class="w-full h-auto scale-[2.0] origin-top" viewBox="0 0 2880 48" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
+            </svg>
+        </div>
+    </div>
+
+
+
+    <section class="relative md:py-24 py-16" id="blogs">
+        <div class="container relative">
+
+            <div class="container relative">
+                <div class="lg:col-span-8 md:col-span-6 md:text-start text-center mt-8 pb-4">
+                    <h3 class="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold text-center">
+                        All Blogs & Components
+                    </h3>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-[30px] mt-8">
+
+                <div class="blog relative rounded-xl shadow dark:shadow-gray-800">
+                    <img class="rounded-t-lg" src="assets/image/01.jpg" alt="">
+
+                    <div class="content py-6 px-4">
+                        <a href="blog-detail.html"
+                            class="title h5 text-lg font-medium hover:text-indigo-600 duration-500 ease-in-out">Design
+                            your apps in your own way</a>
+                        <p class="text-slate-400 mt-3">The phrasal sequence of the is now so that many campaign and
+                            benefit</p>
+
+                        <div class="my-4">
+                            <p class="text-slate-400">15 May 2024</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="blog relative rounded-xl shadow dark:shadow-gray-800">
+                    <img class="rounded-t-lg" src="assets/image/01.jpg" alt="">
+
+                    <div class="content py-6 px-4">
+                        <a href="blog-detail.html"
+                            class="title h5 text-lg font-medium hover:text-indigo-600 duration-500 ease-in-out">How
+                            apps
+                            is changing the IT world</a>
+                        <p class="text-slate-400 mt-3">The phrasal sequence of the is now so that many campaign and
+                            benefit</p>
+
+                        <div class="my-4">
+                            <p class="text-slate-400">15 May 2024</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="blog relative rounded-xl shadow dark:shadow-gray-800">
+                    <img class="rounded-t-lg" src="assets/image/01.jpg" alt="">
+
+                    <div class="content py-6 px-4">
+                        <a href="blog-detail.html"
+                            class="title h5 text-lg font-medium hover:text-indigo-600 duration-500 ease-in-out">Smartest
+                            Applications for Business</a>
+                        <p class="text-slate-400 mt-3">The phrasal sequence of the is now so that many campaign and
+                            benefit</p>
+
+                        <div class="my-4">
+                            <p class="text-slate-400">15 May 2024</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <footer class="footer bg-dark-footer relative text-gray-200 dark:text-gray-200">
+        <div class="py-[30px] px-0 border-t border-slate-800">
+            <div class="container relative text-center">
+                <div class="grid md:grid-cols-3 grid-cols-1 items-center">
+
+                    <div class="md:text-start text-center">
+                        <a href="#" class="text-[22px] focus:outline-none">
+                            <img src="assets/image/logo-light.png" class="mx-auto md:me-auto md:ms-0" alt="">
+                        </a>
+                    </div>
+
+                    <div class="text-center mt-6 md:mt-0 ">
+                        <p class="mb-0">Copyright ©
+                            <script>document.write(new Date().getFullYear())</script> <a href="#"
+                                class="text-reset">DarshitDobariya</a> All Rights Reserved
+                        </p>
+                    </div>
+
+                    <ul class="list-none md:text-end text-center mt-6 md:mt-0">
+
+                        <li class="inline">
+                            <a href="http://linkedin.com/company/shreethemes" target="_blank"
+                                class="size-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border-gray-800 rounded-md border hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600">
+                                <i class='bx bxl-linkedin-square text-lg'></i></a>
+                        </li>
+                        <li class="inline">
+                            <a href="http://linkedin.com/company/shreethemes" target="_blank"
+                                class="size-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border-gray-800 rounded-md border hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600">
+                                <i class='bx bxl-instagram-alt text-lg'></i></a>
+                        </li>
+                        <li class="inline">
+                            <a href="http://linkedin.com/company/shreethemes" target="_blank"
+                                class="size-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border-gray-800 rounded-md border hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600">
+                                <i class='bx bxl-youtube text-lg'></i></a>
+                        </li>
+                        <li class="inline">
+                            <a href="http://linkedin.com/company/shreethemes" target="_blank"
+                                class="size-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border-gray-800 rounded-md border hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600">
+                                <i class='bx bxl-github text-lg'></i></a>
+                        </li>
+                        <li class="inline">
+                            <a href="http://linkedin.com/company/shreethemes" target="_blank"
+                                class="size-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border-gray-800 rounded-md border hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600">
+                                <i class='bx bxs-envelope text-lg'></i></a>
+                        </li>
+
+                    </ul><!--end icon-->
+                </div><!--end grid-->
+            </div><!--end container-->
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Back to top -->
+    <a href="#" onclick="topFunction()" id="back-to-top"
+        class="back-to-top fixed hidden text-lg rounded-full z-10 bottom-5 end-5 size-9 text-center bg-indigo-600 text-white leading-9"><i
+            class="uil uil-arrow-up"></i></a>
+    <!-- Back to top -->
+
+
+    <!-- JAVASCRIPTS -->
+    <script src="assets/libs/tiny-slider/min/tiny-slider.js"></script>
+    <script src="assets/libs/feather-icons/feather.min.js"></script>
+    <script src="assets/js/plugins.init.js"></script>
+    <script src="assets/js/app.js"></script>
+    <!-- JAVASCRIPTS -->
+</body>
+
+<!-- Mirrored from shreethemes.in/techwind/landing/blog-sidebar.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 18 May 2024 07:57:20 GMT -->
+
+</html>

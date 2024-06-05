@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en" class="dark scroll-smooth" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tailwind CSS Multipurpose Landing Dashboard Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+    <link href="assets/libs/tiny-slider/tiny-slider.css" rel="stylesheet">
+    <!-- Main Css -->
+    <link href="assets/libs/%40iconscout/unicons/css/line.css" type="text/css" rel="stylesheet">
+    <link href="assets/libs/%40mdi/font/css/materialdesignicons.min.css" rel="stylesheet" type="text/css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css">
+
+    <link rel="stylesheet" href="assets/css/tailwind.min.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+
+</head>
+
+<body class="font-nunito text-base text-black dark:text-white dark:bg-slate-900">
+
+    <nav id="topnav" class="defaultscroll is-sticky">
+        <div class="container relative">
+            <!-- Logo container-->
+            <a class="logo" href="index.html">
+                <img src="assets/image/logo-dark.png" class="inline-block dark:hidden" alt="">
+                <img src="assets/image/logo-light.png" class="hidden dark:inline-block" alt="">
+            </a>
+
+            <!-- End Logo container-->
+            <div class="menu-extras px-2">
+                <div class="menu-item">
+                    <!-- Mobile menu toggle-->
+                    <a class="navbar-toggle text-3xl" id="isToggle" onclick="toggleMenu()">
+                        <div class="lines">
+                            <i class="uil uil-bars"></i>
+                        </div>
+                    </a>
+                    <!-- End mobile menu toggle-->
+                </div>
+            </div>
+
+            <!--Login button Start-->
+            <ul class="buy-button list-none mb-0">
+                <li class="inline mb-0">
+                    <span class="relative inline-block">
+                        <input type="checkbox" class="checkbox opacity-0 absolute" id="chk" />
+
+                        <label
+                            class="label text-white bg-indigo-600 cursor-pointer rounded-full inline-flex justify-center items-center align-middle size-9"
+                            for="chk">
+                            <i class='bx bxs-moon inline-block dark:hidden'></i>
+                            <i class='bx bxs-sun hidden dark:inline-block'></i>
+                        </label>
+
+                    </span>
+                </li>
+            </ul>
+            <!--Login button End-->
+
+            <div id="navigation">
+                <!-- Navigation Menu-->
+                <ul class="navigation-menu ">
+                    <li>
+                        <a href="index.html" class="sub-menu-item nav-item">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="#about" class="sub-menu-item nav-item">About</a>
+                    </li>
+
+                    <li>
+                        <a href="blogs.html" class="sub-menu-item nav-item">Blogs</a>
+                    </li>
+
+                    <li>
+                        <a href="#projects" class="sub-menu-item nav-item">Projects</a>
+                    </li>
+
+                    <li><a href="#contact" class="sub-menu-item nav-item">Contact</a></li>
+                </ul><!--end navigation menu-->
+            </div><!--end navigation-->
+        </div><!--end container-->
+    </nav>
+
+    <section class="relative md:pb-24 md:pt-40 pb-16 pt-36">
+        <div class="container relative">
+            <div class="grid lg:grid-cols-12 grid-cols-1 gap-[30px]">
+
+                <div class="lg:col-span-8">
+                    <div class="p-6 rounded-md shadow dark:shadow-gray-800">
+
+                        <img src="assets/image/01.jpg" class="rounded-md" alt="">
+
+                        <div class="text-start mt-10 mb-6">
+                            <h3 class="text-3xl font-semibold">My Very Minimal Interior Design Ideas</h3>
+                        </div>
+
+                        <div class="mt-6 blog-content">
+                            <p class="text-slate-400">
+                                The most well-known dummy text is the 'Lorem Ipsum', which is said
+                                to have originated in the 16th century. Lorem Ipsum is composed in a pseudo-Latin
+                                language which more or less corresponds to 'proper' Latin. It contains a series of real
+                                Latin words. This ancient dummy text is also incomprehensible, but it imitates the
+                                rhythm of most European languages in Latin script.
+                            </p>
+
+                            <h2 class="font-semibold mt-10 text-2xl">HTML Code :</h2>
+                            <pre>
+                                <code class="language-javascript code-block dark:code-block-dark">
+                                    const circle = document.getElementById("about-circle")
+                                    var count = 0
+                                    
+                                    setInterval(() => {
+                                        count++
+                                        var deg = count+10
+                                        circle.style.transform = "rotate("+deg+"deg)"
+                                    }, 40);
+
+                                    &lt;div class="mx-auto py-4 portfolio-lang-icn"&gt;
+                                        &lt;span class="language-name"&gt;HTML&lt;/span&gt;
+                                        &lt;i class='bx bxl-html5 html'&gt;&lt;/i&gt;
+                                    &lt;/div&gt;
+
+                                    &lt;div class="mx-auto py-4 portfolio-lang-icn"&gt;
+                                        &lt;span class="language-name"&gt;CSS&lt;/span&gt;
+                                        &lt;i class='bx bxl-css3 css'&gt;&lt;/i&gt;
+                                    &lt;/div&gt;
+                                </code>
+                            </pre>
+
+                            <p class="text-slate-400">
+                                The advantage of its Latin origin and the relative
+                                meaninglessness of Lorum Ipsum is that the text does not attract attention to itself or
+                                distract the viewer's attention from the layout.
+                            </p>
+
+                            <h2 class="font-semibold mt-10 text-2xl">CSS Code :</h2>
+                            <pre>
+                                <code class="language-javascript code-block dark:code-block-dark">
+                                    const circle = document.getElementById("about-circle")
+                                    var count = 0
+                                    
+                                    setInterval(() => {
+                                        count++
+                                        var deg = count+10
+                                        circle.style.transform = "rotate("+deg+"deg)"
+                                    }, 40);
+
+                                    &lt;div class="mx-auto py-4 portfolio-lang-icn"&gt;
+                                        &lt;span class="language-name"&gt;HTML&lt;/span&gt;
+                                        &lt;i class='bx bxl-html5 html'&gt;&lt;/i&gt;
+                                    &lt;/div&gt;
+
+                                    &lt;div class="mx-auto py-4 portfolio-lang-icn"&gt;
+                                        &lt;span class="language-name"&gt;CSS&lt;/span&gt;
+                                        &lt;i class='bx bxl-css3 css'&gt;&lt;/i&gt;
+                                    &lt;/div&gt;
+                                </code>
+                            </pre>
+
+                            <p class="text-slate-400">
+                                The advantage of its Latin origin and the relative
+                                meaninglessness of Lorum Ipsum is that the text does not attract attention to itself or
+                                distract the viewer's attention from the layout.
+                            </p>
+
+                            <h2 class="font-semibold mt-10 text-2xl">JavaScript Code :</h2>
+                            <pre>
+                                <code class="language-javascript code-block dark:code-block-dark">
+                                    const circle = document.getElementById("about-circle")
+                                    var count = 0
+                                    
+                                    setInterval(() => {
+                                        count++
+                                        var deg = count+10
+                                        circle.style.transform = "rotate("+deg+"deg)"
+                                    }, 40);
+
+                                    &lt;div class="mx-auto py-4 portfolio-lang-icn"&gt;
+                                        &lt;span class="language-name"&gt;HTML&lt;/span&gt;
+                                        &lt;i class='bx bxl-html5 html'&gt;&lt;/i&gt;
+                                    &lt;/div&gt;
+
+                                    &lt;div class="mx-auto py-4 portfolio-lang-icn"&gt;
+                                        &lt;span class="language-name"&gt;CSS&lt;/span&gt;
+                                        &lt;i class='bx bxl-css3 css'&gt;&lt;/i&gt;
+                                    &lt;/div&gt;
+                                </code>
+                            </pre>
+                            <p class="text-slate-400">
+                                The most well-known dummy text is the 'Lorem Ipsum', which is said
+                                to have originated in the 16th century. Lorem Ipsum is composed in a pseudo-Latin
+                                language which more or less corresponds to 'proper' Latin. It contains a series of real
+                                Latin words. This ancient dummy text is also incomprehensible, but it imitates the
+                                rhythm of most European languages in Latin script.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-4">
+                    <div class="sticky top-20">
+
+                        <h5
+                            class="text-lg font-semibold bg-gray-50 dark:bg-slate-800 shadow dark:shadow-gray-800 rounded-md p-2 text-center mt-8">
+                            Latest Blogs
+                        </h5>
+
+                        <div class="flex mt-8">
+                            <img src="assets/image/01.jpg" class="h-16 rounded-md shadow dark:shadow-gray-800" alt="">
+
+                            <div class="ms-3">
+                                <a href="#" class="font-semibold hover:text-indigo-600">Consultant Business</a>
+                                <p class="text-sm text-slate-400">1st May 2022</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="footer bg-dark-footer relative text-gray-200 dark:text-gray-200">
+        <div class="py-[30px] px-0 border-t border-slate-800">
+            <div class="container relative text-center">
+                <div class="grid md:grid-cols-3 grid-cols-1 items-center">
+
+                    <div class="md:text-start text-center">
+                        <a href="#" class="text-[22px] focus:outline-none">
+                            <img src="assets/image/logo-light.png" class="mx-auto md:me-auto md:ms-0" alt="">
+                        </a>
+                    </div>
+
+                    <div class="text-center mt-6 md:mt-0 ">
+                        <p class="mb-0">Copyright ©
+                            <script>document.write(new Date().getFullYear())</script> <a href="#"
+                                class="text-reset">DarshitDobariya</a> All Rights Reserved
+                        </p>
+                    </div>
+
+                    <ul class="list-none md:text-end text-center mt-6 md:mt-0">
+
+                        <li class="inline">
+                            <a href="http://linkedin.com/company/shreethemes" target="_blank"
+                                class="size-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border-gray-800 rounded-md border hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600">
+                                <i class='bx bxl-linkedin-square text-lg'></i></a>
+                        </li>
+                        <li class="inline">
+                            <a href="http://linkedin.com/company/shreethemes" target="_blank"
+                                class="size-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border-gray-800 rounded-md border hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600">
+                                <i class='bx bxl-instagram-alt text-lg'></i></a>
+                        </li>
+                        <li class="inline">
+                            <a href="http://linkedin.com/company/shreethemes" target="_blank"
+                                class="size-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border-gray-800 rounded-md border hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600">
+                                <i class='bx bxl-youtube text-lg'></i></a>
+                        </li>
+                        <li class="inline">
+                            <a href="http://linkedin.com/company/shreethemes" target="_blank"
+                                class="size-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border-gray-800 rounded-md border hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600">
+                                <i class='bx bxl-github text-lg'></i></a>
+                        </li>
+                        <li class="inline">
+                            <a href="http://linkedin.com/company/shreethemes" target="_blank"
+                                class="size-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border-gray-800 rounded-md border hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600">
+                                <i class='bx bxs-envelope text-lg'></i></a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#" onclick="topFunction()" id="back-to-top"
+        class="back-to-top fixed hidden text-lg rounded-full z-10 bottom-5 end-5 size-9 text-center bg-indigo-600 text-white leading-9">
+        <i class="uil uil-arrow-up"></i>
+    </a>
+
+    <script src="assets/libs/tiny-slider/min/tiny-slider.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script src="assets/libs/feather-icons/feather.min.js"></script>
+    <script src="assets/js/plugins.init.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <script>
+        ///????????? REMOVE EXTRA WHITE SPACE FROM <PRE> AND <CODE> TAG ////////////////////
+
+        $("pre code").each(function () {
+            var html = $(this).html();
+            var pattern = html.match(/\s*\n[\t\s]*/);
+            $(this).html(html.replace(new RegExp(pattern, "g"), '\n'));
+        });
+
+        hljs.highlightAll();
+    </script>
+</body>
+
+
+</html>
